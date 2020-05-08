@@ -1,9 +1,7 @@
-# Languages And Translation Methods
-The program converts grammar to canonical form.
-The task is described in detail [here](./Coursework%20Report.doc).
+# SpellLine
+This addon visualizes skill cooldown
 ## Requirements
-.Net Framework 4.6.1
+Allods Online 11.0
 ## Build
-To build a project, run `lab5.sln` in the project folder
 ## Preview
-<img src="output.png" width="700" />
+<img src="output.gif" />
