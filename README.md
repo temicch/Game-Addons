@@ -1,5 +1,5 @@
 # Allods Online addons
-<img src="https://allods.mail.ru/static/img/110/logo.png" align=right style="margin:0px 30px" height=120>Here are the add-ons developed by me for the multiplayer online game Allods Online
+<img src="https://allods.mail.ru/static/img/110/logo.png" align=right style="margin:0px 30px" height=120>Here are the addons developed by me for the multiplayer online game Allods Online
 
 | # | Name |
 -----------|------------|
