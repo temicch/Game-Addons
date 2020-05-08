@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetTextView>
+	<Name>Text</Name>
+	<Priority>6050</Priority>
+	<Visible>false</Visible>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_INTERNAL</Sizing>
+			<Size>50</Size>
+			<Pos>0</Pos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Sizing>WIDGET_SIZING_INTERNAL</Sizing>
+			<Size>25</Size>
+			<Pos>0</Pos>
+		</Y>
+	</Placement>
+	<TransparentInput>true</TransparentInput>
+	<FormatFileRef href="Text.txt" />
+</WidgetTextView>

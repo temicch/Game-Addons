@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>Icon</Name>
+	<Priority>5040</Priority>
+	<Visible>false</Visible>
+	<FrontLayer href="Textures/Attack.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<BackLayer href="Textures/Heal.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<Placement>
+		<X>
+			<Size>30</Size>
+		</X>
+		<Y>
+			<Size>30</Size>
+			<Pos>0</Pos>
+            <Align>WIDGET_ALIGN_CENTER</Align>
+		</Y>
+	</Placement>
+	<TransparentInput>true</TransparentInput>
+</WidgetButton>

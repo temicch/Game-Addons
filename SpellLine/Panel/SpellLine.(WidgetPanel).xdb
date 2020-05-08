@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+    <Name>SpellLine</Name>
+	<Priority>5000</Priority>
+    <Children>
+        <Item href="SpellIcon.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+        <Item href="TimeText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+    </Children>
+    <BackLayer href="Placeholder.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+    <Placement>
+        <X>
+            <Align>WIDGET_ALIGN_LOW</Align>
+            <Size>500</Size>
+            <Pos>300</Pos>
+        </X>
+        <Y>
+            <Align>WIDGET_ALIGN_LOW</Align>
+            <Size>50</Size>
+			<Pos>250</Pos>
+        </Y>
+    </Placement>
+    <TransparentInput>true</TransparentInput>
+	<reactionOnPointing>mouse_over</reactionOnPointing>
+</WidgetPanel>

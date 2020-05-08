@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIAddon>
+	<Name>AFQ</Name>
+	<AutoStart>true</AutoStart>
+	<ScriptFileRefs>
+		<Item href="/Mods/SampleCommon/SampleAddonBase.lua"/>
+		<Item href="Chat.lua"/>
+		<Item href="AFQ.lua" />
+	</ScriptFileRefs>
+	<MainFormId>Main</MainFormId>
+	<Forms>
+		<Item>
+			<Form href="MainForm.(WidgetForm).xdb#xpointer(/WidgetForm)" />
+			<Id>Main</Id>
+		</Item>
+	</Forms>
+	<visObjects href="" />
+	<texts href="" />
+	<textures href="" />
+	<localizedNameFileRef href="name.txt"/>
+	<localizedDescFileRef href="desc.txt"/>
+</UIAddon>

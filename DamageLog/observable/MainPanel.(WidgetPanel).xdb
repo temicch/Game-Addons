@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+    <Name>ObservablePanel</Name>
+	<Priority>500</Priority>
+	<Visible>true</Visible>
+	<Children>
+		<Item href="button/Button.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Children>
+    <BackLayer href="../Placeholder.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+    <Placement>
+        <X>
+            <Align>WIDGET_ALIGN_HIGH</Align>
+            <Size>32</Size>
+            <Pos>0</Pos>
+        </X>
+        <Y>
+            <Align>WIDGET_ALIGN_LOW</Align>
+            <Size>32</Size>
+			<Pos>0</Pos>
+        </Y>
+    </Placement>
+    <TransparentInput>false</TransparentInput>
+</WidgetPanel>

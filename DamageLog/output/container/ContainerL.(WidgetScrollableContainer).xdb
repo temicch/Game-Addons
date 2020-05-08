@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetScrollableContainer>
+	<Name>ContainerL</Name>
+	<Priority>0</Priority>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_INTERNAL</Sizing>
+			<Pos>0</Pos>
+			<Size>0</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_INTERNAL</Sizing>
+			<Pos>0</Pos>
+			<Size>0</Size>
+		</Y>
+	</Placement>
+	<Visible>true</Visible>
+	<Enabled>true</Enabled>
+	<TabOrder>0</TabOrder>
+	<bindSections />
+	<TransparentInput>true</TransparentInput>
+	<fade>1</fade>
+	<border href="../Border.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<widgetsArrangement>WIDGETS_ARRANGEMENT_R2L</widgetsArrangement>
+	<scrollBar href="" />
+	<elementsInterval>1</elementsInterval>
+</WidgetScrollableContainer>

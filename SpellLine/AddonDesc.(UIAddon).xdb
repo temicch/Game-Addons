@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIAddon>
+	<Name>SpellLine</Name>
+	<AutoStart>true</AutoStart>
+	<ScriptFileRefs>
+		<Item href="/Mods/SampleCommon/SampleAddonBase.lua"/>
+		<Item href="Chat.lua"/>
+		<Item href="LibDnD.luac" />
+		<Item href="LibTimer.lua" />
+		<Item href="../LibContainer.lua" />
+		<Item href="SpellLine.lua" />
+		<Item href="BuffCooldown.lua" />
+	</ScriptFileRefs>
+	<MainFormId>Main</MainFormId>
+	<Forms>
+		<Item>
+			<Form href="MainForm.(WidgetForm).xdb#xpointer(/WidgetForm)" />
+			<Id>Main</Id>
+		</Item>
+	</Forms>
+	<visObjects href="" />
+	<texts href="" />
+</UIAddon>

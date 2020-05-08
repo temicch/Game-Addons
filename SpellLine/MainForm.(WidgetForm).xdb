@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetForm>
+	<Name>SpellLine</Name>
+	<Priority>4300</Priority>
+	<Children>
+		<Item href="Panel/SpellLine.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="Log/LogPanel.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	</Children>
+	<BackLayer href="" />
+	<FrontLayer href="" />
+	<Placement>
+		<QuantumScale>false</QuantumScale>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</Y>
+	</Placement>
+	<Visible>true</Visible>
+	<Enabled>true</Enabled>
+	<TransparentInput>false</TransparentInput>
+	<PickChildrenOnly>true</PickChildrenOnly>
+</WidgetForm>

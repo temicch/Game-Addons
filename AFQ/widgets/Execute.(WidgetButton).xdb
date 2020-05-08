@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Header>
+		<Prototype href="/Mods/SampleCommon/Button/ButtonRegular.Prototype.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Header>
+	<Name>Button</Name>
+	<Placement>
+		<X>
+			<Size>80</Size>
+		</X>
+		<Y>
+			<Size>30</Size>
+		</Y>
+	</Placement>
+	<Variants>
+		<Item>
+			<TextFileRef href="ButtonExecute.txt" />
+			<Reaction>execute</Reaction>
+		</Item>
+	</Variants>
+</WidgetButton>

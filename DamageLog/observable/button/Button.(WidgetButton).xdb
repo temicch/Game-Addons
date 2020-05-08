@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>ButtonObservable</Name>
+	<Priority>500</Priority>
+	<Placement>
+		<X>
+			<Size>22</Size>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</X>
+		<Y>
+			<Size>22</Size>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</Y>
+	</Placement>
+	<IgnoreDblClick>true</IgnoreDblClick>
+	<TransparentInput>false</TransparentInput>
+	<Variants>
+		<Item>
+			<LayerHighlight href="Highlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			<StateNormal>
+				<LayerMain href="Normal.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StateNormal>
+			<StatePushed>
+				<LayerMain href="Normal.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StatePushed>
+			<PushedOffset x="-2" y="2" />
+			<Reaction>observable_pressed</Reaction>
+			<ReactionRightClick>observable_pressed_right</ReactionRightClick>
+			<ReactionOnUp>true</ReactionOnUp>
+		</Item>
+		<Item>
+			<LayerHighlight href="Highlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			<StateNormal>
+				<LayerMain href="Found.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StateNormal>
+			<StatePushed>
+				<LayerMain href="Found.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StatePushed>
+			<PushedOffset x="-2" y="2" />
+			<Reaction>observable_pressed</Reaction>
+			<ReactionRightClick>observable_pressed_right</ReactionRightClick>
+			<ReactionOnUp>true</ReactionOnUp>
+		</Item>
+		<Item>
+			<LayerHighlight href="Highlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			<StateNormal>
+				<LayerMain href="Disappear.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StateNormal>
+			<StatePushed>
+				<LayerMain href="Disappear.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StatePushed>
+			<PushedOffset x="-2" y="2" />
+			<Reaction>observable_pressed</Reaction>
+			<ReactionRightClick>observable_pressed_right</ReactionRightClick>
+			<ReactionOnUp>true</ReactionOnUp>
+		</Item>
+	</Variants>
+</WidgetButton>

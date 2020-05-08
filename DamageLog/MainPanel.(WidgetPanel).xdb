@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+    <Name>MainPanel</Name>
+	<Priority>5000</Priority>
+	<Visible>true</Visible>
+    <BackLayer href="Placeholder.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+    <Placement>
+        <X>
+            <Align>WIDGET_ALIGN_LOW</Align>
+            <Size>600</Size>
+            <Pos>80</Pos>
+        </X>
+        <Y>
+            <Align>WIDGET_ALIGN_LOW</Align>
+            <Size>180</Size>
+			<Pos>420</Pos>
+        </Y>
+    </Placement>
+    <TransparentInput>true</TransparentInput>
+</WidgetPanel>

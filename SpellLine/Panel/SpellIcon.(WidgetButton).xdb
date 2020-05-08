@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>SpellIcon</Name>
+	<Priority>1000</Priority>
+	<Visible>false</Visible>
+	<BackLayer href="SpellIcon.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<FrontLayer href="SlotButton/SlotPressed.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" /> 
+	<Placement>
+		<X>
+			<Size>50</Size>
+		</X>
+		<Y>
+			<Size>50</Size>
+			<Pos>0</Pos>
+            <Align>WIDGET_ALIGN_CENTER</Align>
+		</Y>
+	</Placement>
+	<TransparentInput>true</TransparentInput>
+</WidgetButton>

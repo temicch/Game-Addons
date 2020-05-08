@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>Quest</Name>
+	<Placement>
+		<QuantumScale>false</QuantumScale>
+		<X>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>85</Pos>
+			<Size>27</Size>
+		</X>
+		<Y>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>0</Pos>
+			<Size>30</Size>
+		</Y>
+	</Placement>
+	<IgnoreDblClick>false</IgnoreDblClick>
+	<Variants>
+		<Item>
+			<LayerHighlight href="textures/CheckBoxStoneHighlight.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			<StateNormal>
+				<LayerMain href="textures/quests/main.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StateNormal>
+			<Reaction>quest_pressed</Reaction>
+			<ReactionRightClick>quest_rc_pressed</ReactionRightClick>
+			<ReactionOnUp>true</ReactionOnUp>
+		</Item>
+		<Item>
+			<LayerHighlight href="textures/CheckBoxStoneHighlight.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			<StateNormal>
+				<LayerMain href="textures/quests/secondary.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StateNormal>
+			<Reaction>quest_pressed</Reaction>
+			<ReactionRightClick>quest_rc_pressed</ReactionRightClick>
+			<ReactionOnUp>true</ReactionOnUp>
+		</Item>
+		<Item>
+			<LayerHighlight href="textures/CheckBoxStoneHighlight.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			<StateNormal>
+				<LayerMain href="textures/quests/repeat.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			</StateNormal>
+			<Reaction>quest_pressed</Reaction>
+			<ReactionRightClick>quest_rc_pressed</ReactionRightClick>
+			<ReactionOnUp>true</ReactionOnUp>
+		</Item>
+	</Variants>
+</WidgetButton>

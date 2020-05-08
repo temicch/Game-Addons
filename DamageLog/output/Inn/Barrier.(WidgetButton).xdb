@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>Barrier</Name>
+	<Priority>5040</Priority>
+	<Visible>false</Visible>
+	<BackLayer href="Textures/Barrier.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<Placement>
+		<X>
+			<Size>20</Size>
+		</X>
+		<Y>
+			<Size>20</Size>
+			<Pos>0</Pos>
+            <Align>WIDGET_ALIGN_CENTER</Align>
+		</Y>
+	</Placement>
+	<TransparentInput>true</TransparentInput>
+</WidgetButton>
